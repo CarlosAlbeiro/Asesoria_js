@@ -1,20 +1,54 @@
-let numero=4;
+let numero="carlos";
 
-if (numero==1) {
-    console.log("El numero es 1");
-}
-if (numero==2) {
-    console.log("El numero es 2");
-}
-if (numero==3) {
-    console.log("El numero es 3");
-}
-if (numero==4) {
-    console.log("El numero es 4");
-}
-if (numero==5) {
-    console.log("El numero es 5");
-}
-if(numero!=1 && numero!=2 && numero!=3 && numero!=4 && numero!=5){
-    console.log("El numero es diferente a los 5 primeros");
+// == solo comapara el valor relativo
+// === compara excatamente el valor 
+
+// if (numero>=4) {
+//     console.log("El numero es 4");
+// }else{
+//     console.log("No es igual");
+// }
+
+// if(numero!="carlos"){
+//     console.log("Si son diferentes");
+// }else{
+//     console.log("Son iguales");
+// }
+
+// if(1>2 || 5<4){
+//     console.log("verdadero");
+// }else{
+//     console.log("falso");
+// }
+
+// if(1>2 && 5>4){
+//     console.log("verdadero");
+// }else{
+//     console.log("falso");
+// }
+
+// if(!false){
+//     console.log("verdadero");
+// }else{
+//     console.log("falso");
+// }
+// let clave=1;
+let usuario="carlos"
+
+// if("andres"==usuario && "4"==clave){
+//     console.log("verdadero");
+// }else{
+//     console.log("falso");
+// }
+
+//If anidados 
+if("carlos"==usuario || clave==1){
+    var clave=1;
+    if (clave==1) {
+        console.log("verdadero");
+    }else{
+        console.log("No son iguales");
+    }
+}else{
+    console.log("falso");
 }
